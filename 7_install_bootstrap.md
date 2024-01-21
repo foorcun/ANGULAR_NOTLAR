@@ -36,3 +36,11 @@ ayni yerdeki scripts:
 ```
 
 not: video da jquery ve popper da ekliyor.
+
+
+# navbar doc
+
+[link](https://getbootstrap.com/docs/4.0/components/navbar/)
+
+
+not : hot start ile gelmiyor. server i durdurup yeniden npm start yap.

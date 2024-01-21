@@ -15,7 +15,7 @@ export * from './login-page-routing.module';
 ```
 
 
-# app-routing.module.ts
+# app-routing.module.ts - routes i ekle
 
 ```.sh
 import { NgModule } from '@angular/core';

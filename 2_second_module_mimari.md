@@ -33,11 +33,17 @@ src > app
 
 ```.sh
 mkdir core
+echo > core/.gitkeep
 mkdir features
+echo > features/.gitkeep
 mkdir layouts
+echo > layouts/.gitkeep
 mkdir pages
+echo > pages/.gitkeep
 mkdir shared
+echo > shared/.gitkeep
 mkdir store
+echo > store/.gitkeep
 ```
 
 sonra path olarak root a geri cikmayi unutma.
