@@ -7,6 +7,11 @@ src > app
 app.component.scss <br>
 app.component.spec.ts <br>
 
+```.sh
+del app.component.scss
+del app.component.spec.ts
+```
+
 not: app.component.ts > styleUrls: comment etmeyi unutma.
 
 ```.sh
