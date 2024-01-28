@@ -12,4 +12,4 @@ export * from './navbar.component';
 ```
 
 # kullanim
-<ngs-navbar></ngs-navbar> tagini ilgili yere ekle
+\<fur-navbar>\</fur-navbar> tagini ilgili yere ekle

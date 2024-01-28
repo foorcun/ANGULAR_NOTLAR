@@ -10,7 +10,6 @@ ng add @ngrx/store
 ```.sh
 ng g c components/count
 ng g c components/addCount
-
 ```
 
 # app.component.html
@@ -20,24 +19,14 @@ ng g c components/addCount
 <hr>
 <app-count></app-count>
 ```
-
-
-# add-count.component.html
-
+eger prefix fur yapmissam:
 ```.sh
-<h1>Add Count Component</h1>
-<button (click)="addCount()">Count Add</button>
+<fur-add-count></fur-add-count>
+<hr>
+<fur-count></fur-count>
 ```
 
 
-# count.component.html
-
-```.sh
-<div style="margin-left: 5%;">
-  <h1>Count Component</h1>
-  <h1 style="color: red">{{number$ | async}}</h1>
-</div>
-```
 
 # app > store folder olustur
 
@@ -73,6 +62,7 @@ export const CounterReducer = createReducer(
 ```.sh
 import { CounterReducer } from './store/counter.reducer';
 ```
+importta bulunan kodu asagidaki ile guncelle:
 ```.sh
     StoreModule.forRoot({ number: CounterReducer }),
 ```
@@ -104,11 +94,27 @@ import { Observable } from 'rxjs';
   }
 ```
 not: en baslata field property olarak number: number =0; yapilmisti. <br>
-field property number: number =0; bu kodlara donustu.
+field property number: number =0; bu kodlara donustu. <br>
 not2: degisken isiminin sonuna $ isareti best practise olarak oneriliyor
 
 
-# call flow
+# add-count.component.html
+
+```.sh
+<h1>Add Count Component</h1>
+<button (click)="addCount()">Count Add</button>
+```
+
+# count.component.html
+
+```.sh
+<div style="margin-left: 5%;">
+  <h1>Count Component</h1>
+  <h1 style="color: red">{{number$ | async}}</h1>
+</div>
+```
+
+# call flow - aciklama
 
 ## reducer flow (changing the state)
 event (button click in the ) add-count.component.html > addCount() <br>
