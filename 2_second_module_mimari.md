@@ -37,18 +37,20 @@ sadece bu kalsin
 src > app
 
 ```.sh
+@echo off
 mkdir core
-echo > core/.gitkeep
+echo.|set /p=" " > core/.gitkeep
 mkdir features
-echo > features/.gitkeep
+echo.|set /p=" " > features/.gitkeep
 mkdir layouts
-echo > layouts/.gitkeep
+echo.|set /p=" " > layouts/.gitkeep
 mkdir pages
-echo > pages/.gitkeep
+echo.|set /p=" " > pages/.gitkeep
 mkdir shared
-echo > shared/.gitkeep
+echo.|set /p=" " > shared/.gitkeep
 mkdir store
-echo > store/.gitkeep
+echo.|set /p=" " > store/.gitkeep
+@echo on
 ```
 
 sonra path olarak root a geri cikmayi unutma.
