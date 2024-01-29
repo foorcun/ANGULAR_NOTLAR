@@ -4,17 +4,10 @@
 npm install bootstrap jquery popper.js --save
 ```
 
-# open styles.scss
-
-index.html, main.ts, styles.scss.... add that code:
-
-```.sh
-@import '~bootstrap/dist/css/bootstrap.min.css';
-```
 
 # open angular.json
 
-[link](https://www.youtube.com/watch?v=g9ucAJU0Bb8&ab_channel=CodeHandbook)
+[youtube_link](https://www.youtube.com/watch?v=g9ucAJU0Bb8&ab_channel=CodeHandbook)
 
 projects: > "my-navbar-project": > "architect": > "build": > "styles":
 
@@ -40,7 +33,7 @@ not: video da jquery ve popper da ekliyor.
 
 # navbar doc
 
-[link](https://getbootstrap.com/docs/4.0/components/navbar/)
+[doc_link](https://getbootstrap.com/docs/4.0/components/navbar/)
 
 
 not : hot start ile gelmiyor. server i durdurup yeniden npm start yap.

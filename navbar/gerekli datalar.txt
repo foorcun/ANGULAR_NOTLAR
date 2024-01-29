@@ -1,0 +1,7 @@
+background-color
+
+logo src: 
+  LOGO_SRC = '//eu.livetteswallpaper.com/cdn/shop/files/Livettes-logo-8-2-2022-website_360x.png?v=1664885127',
+
+
+logo sizelari: width = 185
